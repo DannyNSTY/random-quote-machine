@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+  }
+  /* This is the main div guys */
+  
+ div {
+     position: relative;
+     z-index: 2;
+ } 
+
+ body {
+    background-color: #333;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .footer {
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 0.8em;
+    color: #fff;
+  }
+    a {
+      font-weight: 500;
+      text-decoration: none;
+      color: #fff;
+    }
+  
+  #quote-box {
+    border-radius: 25px;
+    position: relative;
+    margin:8% auto auto auto;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.25) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.35) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+   .quote-text {
+      text-align: center;
+      width: 450px;
+      height: auto;
+      clear: both;
+      font-weight: 500;
+      font-size: 1.75em;
+    }
+  i {
+        font-size: 1em;
+        margin-right: 0.4em;
+      }
+    .quote-author {
+      width: 450px;
+      height: auto;
+      clear: both;
+      padding-top: 20px;
+      font-size: 1em;
+      text-align: right;
+    }
+    .buttons {
+      width: 450px;
+      margin: auto;
+      display: block;
+  }
+      .button {
+        height: 38px;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #333;
+        outline: none;
+        font-size: 0.85em;
+        padding: 8px 18px 6px 18px;
+        margin-top: 30px;
+        opacity: 1;
+        cursor: pointer;
+  }
+  button:hover {
+          opacity: 0.9;
+        }
+  #tweet-quote,
+  #tumblr-quote {
+          float: left;
+          padding: 2px;
+          padding-top: 8px;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 1.2em;
+          margin-right: 5px;
+          height: 30px;
+          width: 40px;
+    box-shadow: rgba(50, 50, 93, 0.55) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+  
+  #tumblr-quote:hover {
+          opacity: 0.7;
+        }
+  #tweet-quote:hover {
+          opacity: 0.7;
+        }
+   #new-quote {
+          float: right;
+       box-shadow: rgba(50, 50, 93, 0.55) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+  a:visited {
+    color: #fff
+  }
+  
+  
